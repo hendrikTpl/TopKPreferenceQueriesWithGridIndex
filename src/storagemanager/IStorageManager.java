@@ -1,7 +1,6 @@
 package storagemanager;
 
 /**
- * Created by ananya on 26/10/15.
  * Taken from https://github.com/felixr/java-spatialindex
  */
 
