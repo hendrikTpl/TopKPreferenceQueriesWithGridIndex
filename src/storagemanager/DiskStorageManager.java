@@ -1,6 +1,7 @@
 package storagemanager;
 
 /**
+ * Created by ananya on 26/10/15.
  * Modified from from https://github.com/felixr/java-spatialindex
  */
 
@@ -10,8 +11,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.*;
 
-public class DiskStorageManager implements IStorageManager
-{
+public class DiskStorageManager implements IStorageManager {
     private RandomAccessFile m_dataFile = null;
     private RandomAccessFile m_indexFile = null;
     private int m_pageSize = 0;
